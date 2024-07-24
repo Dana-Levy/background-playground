@@ -1,0 +1,18 @@
+@import '@styles/theme.module.scss';
+@import '@styles/theme.module.scss';
+.root {
+}
+
+.shorthand {
+    width: auto;
+    height: 20vw;
+    border: 8px dashed #8e1c1c;
+
+    background: no-repeat padding-box padding-box right 35% bottom 45% / contain scroll
+        url(https://cdn-icons-png.flaticon.com/256/2938/2938237.png) rgba(194, 142, 56, 0.54);
+    background-blend-mode: multiply;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
