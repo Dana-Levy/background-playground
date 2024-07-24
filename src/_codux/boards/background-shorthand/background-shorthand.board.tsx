@@ -5,4 +5,7 @@ export default createBoard({
     name: 'BackgroundShorthand',
     Board: () => <BackgroundShorthand />,
     isSnippet: true,
+    environmentProps: {
+        windowWidth: 906,
+    },
 });
