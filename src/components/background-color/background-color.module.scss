@@ -1,116 +1,16 @@
 @import '@styles/theme.module.scss';
 .root {
 }
-.div1 {
-    display: flex;
-    flex-direction: row;
-    gap: 12px;
-    margin-bottom: 12px;
-}
-.div2 {
-    background-color: #00b8f2;
-}
-.div3 {
-    background-color: rgb(0, 184, 242);
-}
-.div4 {
-    background-color: rgb(0, 184, 242, 50%);
-}
-.div5 {
-    background-color: lab(69.41 -29 -46.85);
-}
-.div6 {
-    background-color: oklab(73.33% -0.12 -0.13);
-}
-.div7 {
-    background-color: lch(69.41 55.1 238.24);
-}
-.container {
-    align-content: center;
-    padding-right: 4px;
-    padding-left: 4px;
-    font-size: 12px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.div8 {
-    border: 6px dashed #0038db;
-    background-clip: border-box;
-    background-color: oklab(86.92% -0.22 0.02);
-}
-.div9 {
-    border: 6px dashed #0038db;
-    background-clip: padding-box;
-    background-color: oklab(86.92% -0.22 0.02);
-}
-.div10 {
-    border: 6px dashed #0038db;
-    background-clip: content-box;
-    background-color: oklab(86.92% -0.22 0.02);
-}
-.div11 {
-    background-clip: text;
-    color: transparent;
-    background-color: oklab(65.66% -0.15 0.02);
-}
-.div12 {
-    background-image: 
-    /* top, transparent red */
-        linear-gradient(rgba(255, 0, 0, 0.45), rgba(255, 0, 0, 0.45)),
-        /* your image */
-            url('https://i0.wp.com/picjumbo.com/wp-content/uploads/autumn-leaves-seamless-texture-free-photo.png?w=600&quality=80');
-}
-.div13 {
-    height: 20vh;
-    width: auto;
-    background:
-        url(https://i.pinimg.com/originals/79/76/2a/79762a5aca43f4b49081cb012b676fa9.png) no-repeat,
-        url(https://static-cse.canva.com/blob/1257301/texture.jpg) no-repeat;
-}
 
-.div14 {
+.shorthand {
     width: auto;
-    height: 40vh;
-    background:
-        url(https://www.iconarchive.com/download/i78702/zairaam/bumpy-planets/08-saturn.ico) 15% 30%
-            no-repeat,
-        url(https://i0.wp.com/thehill.com/wp-content/uploads/sites/2/2022/08/CA_space_08032022istock.jpg?w=2000&ssl=1)
-            no-repeat;
-}
-.p1 {
-    color: $white;
-    font-size: 30px;
-}
-.div15 {
-    width: auto;
-    height: 40vh;
+    height: 20vw;
+    border: 8px dashed #8e1c1c;
 
-    background: #00b8f2
-        url(https://images.vexels.com/media/users/3/241651/isolated/lists/f882f320631baa72e1f928680168b7f7-cartoon-bird-animal.png)
-        no-repeat 40% 15%;
-}
-
-.div16 {
-    width: auto;
-    height: 60vh;
-
-    background:
-        url(https://images.vexels.com/media/users/3/241651/isolated/lists/f882f320631baa72e1f928680168b7f7-cartoon-bird-animal.png)
-            no-repeat 10% 5%,
-        url(https://images.vexels.com/media/users/3/241651/isolated/lists/f882f320631baa72e1f928680168b7f7-cartoon-bird-animal.png)
-            no-repeat 45% 5%,
-        url(https://images.vexels.com/media/users/3/241651/isolated/lists/f882f320631baa72e1f928680168b7f7-cartoon-bird-animal.png)
-            no-repeat 80% 15%,
-        gold;
-    background-blend-mode: multiply, difference, normal;
-}
-.div17 {
-    width: auto;
-    height: 60vw;
-    border: 15px dashed #8e1c1c;
-
-    background: url(https://cdn-icons-png.flaticon.com/256/2938/2938237.png) right 35% bottom 45%/ 200px
-        250px no-repeat scroll padding-box rgba(255, 0, 0, 0.45);
-        background-blend-mode: multiply;
+    background: no-repeat padding-box padding-box right 35% bottom 45% / contain scroll
+        url(https://cdn-icons-png.flaticon.com/256/2938/2938237.png) rgba(194, 142, 56, 0.54);
+    background-blend-mode: multiply;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 700;
 }

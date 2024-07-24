@@ -7,7 +7,7 @@ export default createBoard({
     Board: () => <BackgroundColor className={styles.backgroundColor} />,
     isSnippet: true,
     environmentProps: {
-        windowWidth: 1716,
-        windowHeight: 1410,
+        windowWidth: 1024,
+        windowHeight: 1366,
     },
 });
