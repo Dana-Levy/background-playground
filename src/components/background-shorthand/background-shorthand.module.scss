@@ -1,18 +1,29 @@
 @import '@styles/theme.module.scss';
 @import '@styles/theme.module.scss';
+
 .root {
 }
-
-.shorthand {
-    width: auto;
-    height: 20vw;
-    border: 8px dashed #8e1c1c;
-
-    background: no-repeat padding-box padding-box right 35% bottom 45% / contain scroll
-        url(https://cdn-icons-png.flaticon.com/256/2938/2938237.png) rgba(194, 142, 56, 0.54);
-    background-blend-mode: multiply;
-    padding: 20px;
-    font-size: 18px;
-    font-weight: 700;
+.caseContainer {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 1fr 2fr;
+    height: 25vh;
 }
-
+.item {
+    background-color: #e1e1e1;
+    padding: 12px;
+}
+.bgScroll {
+    border: 5px solid #1a8004;
+    font-size: 12px;
+    color: #ffffff;
+    background:
+        no-repeat padding-box padding-box right 40% bottom 45% / contain scroll
+            url(https://cdn-icons-png.flaticon.com/256/7441/7441511.png),
+        no-repeat padding-box border-box right 55% bottom 90% / 60px 60px scroll
+            url(https://cdn-icons-png.flaticon.com/256/1514/1514935.png),
+        repeat padding-box border-box 0% / auto scroll
+            url(https://images.unsplash.com/photo-1559212958-2c88ccd83dde?q=80&w=1931&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-attachment: scroll, local, scroll;
+    overflow: auto;
+}
