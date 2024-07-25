@@ -21,40 +21,38 @@ export const BackgroundShorthand = ({ className }: BackgroundShorthandProps) => 
                     background-attachment CSS property sets whether a background image&apos;s
                     position is fixed within the viewport, or scrolls with its containing block.The
                     background-attachment CSS property sets whether a background image&apos;s
-                    position is fixed within the viewport, or scrolls with its containing block.
-                    The background-attachment CSS property sets whether a background image&apos;s
+                    position is fixed within the viewport, or scrolls with its containing block. The
+                    background-attachment CSS property sets whether a background image&apos;s
                     position is fixed within the viewport, or scrolls with its containing block. The
                     background-attachment CSS property sets whether a background image&apos;s
                     position is fixed within the viewport, or scrolls with its containing block.The
                     background-attachment CSS property sets whether a background image&apos;s
                     position is fixed within the viewport, or scrolls with its containing block.The
                     background-attachment CSS property sets whether a background image&apos;s
-                    position is fixed within the viewport, or scrolls with its containing block.
-                    The background-attachment CSS property sets whether a background image&apos;s
+                    position is fixed within the viewport, or scrolls with its containing block. The
+                    background-attachment CSS property sets whether a background image&apos;s
                     position is fixed within the viewport, or scrolls with its containing block. The
                     background-attachment CSS property sets whether a background image&apos;s
                     position is fixed within the viewport, or scrolls with its containing block.The
                     background-attachment CSS property sets whether a background image&apos;s
                     position is fixed within the viewport, or scrolls with its containing block.The
                     background-attachment CSS property sets whether a background image&apos;s
-                    position is fixed within the viewport, or scrolls with its containing block.
-                    The background-attachment CSS property sets whether a background image&apos;s
+                    position is fixed within the viewport, or scrolls with its containing block. The
+                    background-attachment CSS property sets whether a background image&apos;s
                     position is fixed within the viewport, or scrolls with its containing block. The
                     background-attachment CSS property sets whether a background image&apos;s
                     position is fixed within the viewport, or scrolls with its containing block.The
                     background-attachment CSS property sets whether a background image&apos;s
                     position is fixed within the viewport, or scrolls with its containing block.The
                     background-attachment CSS property sets whether a background image&apos;s
-                    position is fixed within the viewport, or scrolls with its containing block.
-                    The background-attachment CSS property sets whether a background image&apos;s
+                    position is fixed within the viewport, or scrolls with its containing block. The
+                    background-attachment CSS property sets whether a background image&apos;s
                     position is fixed within the viewport, or scrolls with its containing block. The
                     background-attachment CSS property sets whether a background image&apos;s
                     position is fixed within the viewport, or scrolls with its containing block.The
                     background-attachment CSS property sets whether a background image&apos;s
                     position is fixed within the viewport, or scrolls with its containing block.The
                     background-attachment CSS property sets whether a background image&apos;s
-                
-                    
                 </p>
             </div>
             <div className={classNames(styles.shorthand, styles.effect)}>
@@ -64,6 +62,9 @@ export const BackgroundShorthand = ({ className }: BackgroundShorthandProps) => 
                 <h1>background shorthand</h1>
             </div>
             <div className={styles.bgText}>
+                <h1>background shorthand</h1>
+            </div>
+            <div className={styles.bgImage}>
                 <h1 className={styles.header1}>TEXT</h1>
             </div>
         </div>
