@@ -88,12 +88,12 @@
     font-size: 12px;
     color: #ffffff;
 
-    background:
-           right 55% bottom 90% / 60px 60px scroll
+    background-image:
 url(https://plus.unsplash.com/premium_photo-1675826774815-35b8a48ddc2c?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D),
     url(https://images.unsplash.com/photo-1433086966358-54859d0ed716?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
     
-    background-size: 40% 100%;
+
+    background-size: 40% 100%, 60% 100%;
     background-repeat: no-repeat;
 
 }
