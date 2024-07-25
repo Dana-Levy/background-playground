@@ -1,77 +1,22 @@
 @import '@styles/theme.module.scss';
 @import '@styles/theme.module.scss';
-.root {
-    display: grid;
-    flex-direction: column;
-    row-gap: 12px;
-    grid-template-columns: 1fr 2fr;
-}
 
+.root {
+}
+.caseContainer {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 1fr 2fr;
+    height: 25vh;
+}
 .item {
     background-color: #e1e1e1;
     padding: 12px;
 }
-.shorthand {
-    width: auto;
-    height: 20vw;
-    border: 8px dashed #8e1c1c;
-
-    background:
-        no-repeat padding-box padding-box right 35% bottom 45% / contain scroll
-            url(https://cdn-icons-png.flaticon.com/256/2938/2938237.png),
-        no-repeat right 25% bottom 30%/ 100px 100px url(https://cdn.iconscout.com/icon/free/png-256/free-cheese-1806482-1534540.png?f=webp&w=256),
-        rgba(194, 142, 56);
-
-    padding: 20px;
-    font-size: 18px;
-    font-weight: 700;
-}
-
-.effect {
-    background-blend-mode: multiply, overlay;
-}
-
-.rabbit {
-    width: auto;
-    height: 20vw;
-    border: 8px dashed #8e1c1c;
-
-    background:
-        no-repeat padding-box padding-box right 40% bottom 45% / contain scroll
-            url(https://cdn-icons-png.flaticon.com/256/7441/7441511.png),
-        no-repeat right 55% bottom 10%/ 60px 60px url(https://cdn-icons-png.freepik.com/256/6108/6108985.png),
-        rgba(194, 142, 56);
-
-    padding: 20px;
-    font-size: 18px;
-    font-weight: 700;
-}
-
-.bgText {
-    width: auto;
-    height: 20vw;
-    border: 5px solid #1a8004;
-    padding: 20px;
-    font-size: 66px;
-    font-weight: 900;
-    font-family: Arial, sans-serif;
-    text-align: center;
-
-    // background-image: url(https://images.unsplash.com/photo-1551336531-183c72560806?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
-    // background-clip: text;
-    // color: transparent;
-
-    background: no-repeat text
-        url(https://images.unsplash.com/photo-1551336531-183c72560806?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
-    color: transparent;
-}
-
 .bgScroll {
     border: 5px solid #1a8004;
     font-size: 12px;
     color: #ffffff;
-    height: 15vh;
-
     background:
         no-repeat padding-box padding-box right 40% bottom 45% / contain scroll
             url(https://cdn-icons-png.flaticon.com/256/7441/7441511.png),
@@ -81,21 +26,4 @@
             url(https://images.unsplash.com/photo-1559212958-2c88ccd83dde?q=80&w=1931&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
     background-attachment: scroll, local, scroll;
     overflow: auto;
-}
-
-.bgImage {
-    width: auto;
-    height: 500px;
-    border: 5px solid #1a8004;
-    padding: 12px 4px 12px 20px;
-    font-size: 12px;
-    color: #ffffff;
-
-    background-image: url(https://plus.unsplash.com/premium_photo-1675826774815-35b8a48ddc2c?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D),
-        url(https://images.unsplash.com/photo-1433086966358-54859d0ed716?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
-
-    background-size:
-        40% 100%,
-        60% 100%;
-    background-repeat: no-repeat;
 }
