@@ -1,6 +1,9 @@
 @import '@styles/theme.module.scss';
 @import '@styles/theme.module.scss';
 .root {
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
 }
 
 .shorthand {
@@ -8,14 +11,71 @@
     height: 20vw;
     border: 8px dashed #8e1c1c;
 
-    background: no-repeat padding-box padding-box right 35% bottom 45% / contain scroll
-        url(https://cdn-icons-png.flaticon.com/256/2938/2938237.png),
-        no-repeat right 25% bottom 30%/ 100px 100px
-        url(https://cdn.iconscout.com/icon/free/png-256/free-cheese-1806482-1534540.png?f=webp&w=256),
-        rgba(194, 142, 56, 0.54);
-    background-blend-mode: multiply;
+    background:
+        no-repeat padding-box padding-box right 35% bottom 45% / contain scroll
+            url(https://cdn-icons-png.flaticon.com/256/2938/2938237.png),
+        no-repeat right 25% bottom 30%/ 100px 100px url(https://cdn.iconscout.com/icon/free/png-256/free-cheese-1806482-1534540.png?f=webp&w=256),
+        rgba(194, 142, 56);
+
     padding: 20px;
     font-size: 18px;
     font-weight: 700;
 }
 
+.effect {
+    background-blend-mode: color-burn, normal;
+}
+
+.rabbit {
+    width: auto;
+    height: 20vw;
+    border: 8px dashed #8e1c1c;
+
+    background:
+        no-repeat padding-box padding-box right 40% bottom 45% / contain scroll
+            url(https://cdn-icons-png.flaticon.com/256/7441/7441511.png),
+        no-repeat right 55% bottom 10%/ 60px 60px url(https://cdn-icons-png.freepik.com/256/6108/6108985.png),
+        rgba(194, 142, 56);
+
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.bgText {
+    width: auto;
+    height: 20vw;
+    border: 5px solid #1a8004;
+    padding: 20px;
+    font-size: 100px;
+    line-height: 104px;
+    font-weight: 900;
+    font-family: Arial, sans-serif;
+    text-align: center;
+
+    // background-image: url(https://images.unsplash.com/photo-1551336531-183c72560806?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    // background-clip: text;
+    // color: transparent;
+
+    background: no-repeat text
+        url(https://images.unsplash.com/photo-1551336531-183c72560806?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    color: transparent;
+}
+
+.bgScroll {
+    width: auto;
+    height: 100px;
+    border: 5px solid #1a8004;
+    padding: 20px;
+    font-size: 12px;
+    color: #ffffff;
+
+    background:
+        no-repeat padding-box padding-box right 40% bottom 45% / contain scroll
+            url(https://cdn-icons-png.flaticon.com/256/7441/7441511.png),
+        no-repeat right 55% bottom 90%/ 60px 60px url(https://cdn-icons-png.freepik.com/256/6108/6108985.png),
+        url(https://images.unsplash.com/photo-1551336531-183c72560806?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-attachment: scroll, local, scroll;
+
+    overflow: auto;
+}
