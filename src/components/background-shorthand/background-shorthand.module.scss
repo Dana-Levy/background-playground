@@ -14,6 +14,7 @@
 .item {
     background-color: #e1e1e1;
     padding: 12px;
+    color: $charcoal-black;
 }
 
 .bgScroll {
@@ -39,9 +40,12 @@
             url(https://cdn-icons-png.flaticon.com/256/2938/2938237.png),
         no-repeat padding-box right 25% bottom 30%/ 100px 100px url(https://cdn.iconscout.com/icon/free/png-256/free-cheese-1806482-1534540.png?f=webp&w=256),
         rgba(194, 142, 56);
-        background-clip: padding-box;
+    background-clip: padding-box;
 }
 
 .effect {
     background-blend-mode: multiply, overlay;
+}
+.bgVariable {
+    background:$layer-one, $layer-two ; 
 }
