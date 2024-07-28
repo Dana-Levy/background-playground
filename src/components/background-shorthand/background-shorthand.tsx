@@ -84,7 +84,7 @@ export const BackgroundShorthand = ({ className }: BackgroundShorthandProps) => 
             </div>
             <div className={styles.caseContainer}>
                 <div className={styles.item}>
-                    <p>Here is an example of a background shorthand variable per layer</p>
+                    <p>An example of a shorthand variable inside another shorthand variable </p>
                 </div>
                 <div className={classNames(styles.item, styles.effect, styles.bgVariable)}></div>
             </div>
