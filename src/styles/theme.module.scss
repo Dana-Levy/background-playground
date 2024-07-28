@@ -24,8 +24,10 @@ $layer-one:
 
 $layer-two:  no-repeat right center / cover url(https://images.unsplash.com/photo-1504253163759-c23fccaebb55?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
 
+$layer-three:  no-repeat padding-box padding-box right 70% bottom 70% / 12% url(https://kilimanjaroballoonsafaris.com/wp-content/uploads/2021/04/AirKBS_balloon-final-min.png);
 
-$cloud-balloon: $layer-one,$layer-two;
+
+$cloud-balloon: $layer-one, $layer-two,$layer-three;
 
 
 

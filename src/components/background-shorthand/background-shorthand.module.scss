@@ -47,5 +47,8 @@
     background-blend-mode: multiply, overlay;
 }
 .bgLayer {
-    background:$layer-one, $layer-two ; 
+    background: $layer-one, $layer-two;
+}
+.bgVariable {
+    background:$cloud-balloon;
 }
