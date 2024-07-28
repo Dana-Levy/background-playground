@@ -35,10 +35,11 @@
     border: 6px dashed darkcyan;
 
     background:
-        no-repeat padding-box padding-box right 35% bottom 45% / contain scroll
+        no-repeat padding-box right 35% bottom 45% / contain scroll
             url(https://cdn-icons-png.flaticon.com/256/2938/2938237.png),
-        no-repeat right 25% bottom 30%/ 100px 100px url(https://cdn.iconscout.com/icon/free/png-256/free-cheese-1806482-1534540.png?f=webp&w=256),
+        no-repeat padding-box right 25% bottom 30%/ 100px 100px url(https://cdn.iconscout.com/icon/free/png-256/free-cheese-1806482-1534540.png?f=webp&w=256),
         rgba(194, 142, 56);
+        background-clip: padding-box;
 }
 
 .effect {

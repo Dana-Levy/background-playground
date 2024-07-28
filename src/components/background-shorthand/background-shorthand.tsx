@@ -71,8 +71,7 @@ export const BackgroundShorthand = ({ className }: BackgroundShorthandProps) => 
             <div className={styles.caseContainer}>
                 <div className={styles.item}>
                     <p>
-                        An example of a background shorthand with three layers and a background
-                        attachment property
+                        An example of a background shorthand with 2 layers border (clip property).
                     </p>
                 </div>
                 <div className={classNames(styles.item, styles.shorthand, styles.effect)}></div>
