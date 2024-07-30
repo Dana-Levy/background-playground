@@ -74,7 +74,15 @@ export const BackgroundShorthand = ({ className }: BackgroundShorthandProps) => 
                         An example of a background shorthand with 2 layers border (clip property).
                     </p>
                 </div>
-                <div className={classNames(styles.item, styles.shorthand, styles.effect)}></div>
+                <div className={classNames(styles.item, styles.bgSection, styles.effect)}></div>
+            </div>
+            <div className={styles.caseContainer}>
+                <div className={styles.item}>
+                    <p>An example of a background shorthand and hover state</p>
+                </div>
+                <div className={styles.item}>
+                    <button className={styles.primary}>Button</button>
+                </div>
             </div>
             <div className={styles.caseContainer}>
                 <div className={styles.item}>
@@ -84,10 +92,13 @@ export const BackgroundShorthand = ({ className }: BackgroundShorthandProps) => 
             </div>
             <div className={styles.caseContainer}>
                 <div className={styles.item}>
-                    <p>An example of a shorthand variable inside another shorthand variable </p>
+                    <p className={styles.p1}>
+                        An example of a shorthand variable inside another shorthand variable 
+                    </p>
                 </div>
                 <div className={classNames(styles.item, styles.effect, styles.bgVariable)}></div>
             </div>
+            <div className={classNames(styles.ran, styles.dana, styles.div2, styles.div)} />
         </div>
     );
 };

@@ -31,24 +31,35 @@
     overflow: auto;
 }
 
-.shorthand {
+.bgSection {
     width: auto;
     border: 6px dashed darkcyan;
 
     background:
-        no-repeat padding-box right 35% bottom 45% / contain scroll
-            url(https://cdn-icons-png.flaticon.com/256/2938/2938237.png),
-        no-repeat padding-box right 25% bottom 30%/ 100px 100px url(https://cdn.iconscout.com/icon/free/png-256/free-cheese-1806482-1534540.png?f=webp&w=256),
+        no-repeat center / contain url(https://cdn-icons-png.flaticon.com/256/2938/2938237.png),
+        no-repeat center/ 100px 100px
+            url(https://cdn.iconscout.com/icon/free/png-256/free-cheese-1806482-1534540.png?f=webp&w=256),
         rgba(194, 142, 56);
     background-clip: padding-box;
 }
 
 .effect {
     background-blend-mode: multiply, overlay;
+    background-position: 10%;
 }
 .bgLayer {
     background: $layer-one, $layer-two;
 }
 .bgVariable {
-    background:$cloud-balloon;
+    background: $cloud-balloon;
+}
+
+.primary {
+    background: #0089e366;
+    min-height: 60px;
+    min-width: 300px;
+    text-align: center;
+    &:hover {
+        background-color: #e30055;
+    }
 }
