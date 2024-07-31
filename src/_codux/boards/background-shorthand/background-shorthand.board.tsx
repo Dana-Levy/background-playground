@@ -7,6 +7,6 @@ export default createBoard({
     isSnippet: true,
     environmentProps: {
         windowWidth: 1229,
-        windowHeight: 620,
+        windowHeight: 753,
     },
 });

@@ -74,7 +74,14 @@ export const BackgroundShorthand = ({ className }: BackgroundShorthandProps) => 
                         An example of a background shorthand with 2 layers border (clip property).
                     </p>
                 </div>
-                <div className={classNames(styles.item, styles.bgSection, styles.effect)}></div>
+                <div
+                    className={classNames(
+                        styles.item,
+                        styles.bgSection,
+                        styles.effect,
+                        styles.Bacon,
+                    )}
+                ></div>
             </div>
             <div className={styles.caseContainer}>
                 <div className={styles.item}>
@@ -99,6 +106,14 @@ export const BackgroundShorthand = ({ className }: BackgroundShorthandProps) => 
                 <div className={classNames(styles.item, styles.effect, styles.bgVariable)}></div>
             </div>
             <div className={classNames(styles.ran, styles.dana, styles.div2, styles.div)} />
+            <div className={styles.caseContainer}>
+                <div className={styles.item}>
+                    <p>
+                        An example of a background shorthand with 2 layers border (clip property).
+                    </p>
+                </div>
+                <div className={classNames(styles.item, styles.bgSection2, styles.Bacon)}></div>
+            </div>
         </div>
     );
 };
